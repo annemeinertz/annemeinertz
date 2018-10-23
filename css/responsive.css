@@ -1,0 +1,396 @@
+
+/* responsive css*/
+
+@media only screen and (min-width:1024px) {
+
+.single_team_img img{
+	width:100%;
+}
+
+	
+	
+	
+}
+
+/* Tabe Screen Media */
+
+@media only screen and (min-width: 768px)and(max-width: 1023px){
+
+
+.sinle_features {
+    padding: 50px 0px;
+	width: 60%;
+	margin:0 auto;
+}
+
+.single_blog_overlay {
+    padding: 15px 10px;
+}
+
+.main_steps_content:after{
+   display:none;
+}
+	
+	
+}
+
+/* Mobile Phone Screen Media */
+
+@media only screen and (max-width: 767px){
+	
+.single_service {
+    color: #000;
+    margin-top: 5%;
+    display: inline-block;
+}
+.single_service h4 {
+    color:#e84c3d;
+	margin-top: 50px;
+}
+
+.single_service p {
+    color: #e84c3d;
+}
+.single_blog_overlay {
+    padding: 45px 20px;
+}
+.sinle_counter {
+    text-align: center;
+	margin-top:30px;
+}
+.sinle_counter .separetorwhite {
+    border-bottom: 3px solid #fff;
+    overflow: hidden;
+    padding: 2px 0px;
+    width: 10%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.main_steps_content:after{
+   display:none;
+}
+    .signature1 {
+    width: 50%;
+}
+    .separetor {
+    border-bottom: 3px solid #898989;
+    overflow: hidden;
+    padding: 3px 0px;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+    .forside-btn {
+    background: #cdbbbb;
+    border: none;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    color: #fff;
+    transition: .6s;
+}
+
+.forside-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+
+    /*ABOUT*/
+    .col-xs-12 {
+    width: 100%;
+}
+    .col-md-6.col-sm-6.col-xs-12 {
+        height: 390px;
+}
+    .single_abouts h2{
+    font-weight: 300;
+    font-size: 2.6rem;
+    color: #333b46;
+    margin-left: 9%;
+    }
+        .separetor3 {
+    border-bottom: 3px solid #898989;
+    overflow: hidden;
+    padding: 3px 0px;
+    width: 42%;
+    margin-bottom: 20px;
+}
+    .abouttext{
+    line-height: 4rem;
+    font-size: 1.9rem;
+         margin-left: 4%;
+    }
+    .hiddentext{
+        visibility: hidden;
+        margin-bottom: 10%;
+    }
+
+    .abouts{
+        padding: 30px 10px;
+    }
+
+    .aboutpic{
+            border-radius: 50%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;  
+      position: relative;
+        margin-top: 10%;
+    }
+	/* PORTFOLIO */
+    .featured{
+        padding: 10px 40px;
+    }
+    .pink-btn {
+    background: #cdbbbb;
+    border: none;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ margin-top: -17%;
+        margin-bottom: 7%;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+    .gif{
+        height: 200px;
+    }
+    
+    /* CONTACT*/
+    
+    .contact{
+    background-color: rgba(175,175,175, 0.2);
+    height: 450px;
+
+}
+.box{
+    height: 450px;
+    width: 100%;
+    padding: 0;
+}
+
+.touch{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: -1%;
+}
+.separetor4 {
+    border-bottom: 3px solid #898989;
+    overflow: hidden;
+    padding: 3px 0px;
+    width: 30%;
+    text-align: left;
+    margin-left: 0;
+}
+.box1{
+    float: left;
+    width: 50%;
+    margin-top: -5%;
+}
+.contactp {
+    line-height: 2rem;
+    text-align: left;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: #898989;
+}
+a:hover{
+    color: #cdbbbb;
+}
+.contactmac{
+   float: right;
+    width: 50%;
+    height: 270px;
+    margin-top: -24%
+}
+/* =========== LOW POLY =========*/
+.rightbox {
+     margin-top: -4%;
+    width: 80%;
+    height: 90vh;
+    overflow: hidden;
+   
+    
+}
+    .boxtext{
+    margin-bottom: 5%;
+    color: #898987;
+        font-size:25px;
+}
+.aboutlow{
+    font-size: 15px;
+    line-height: 2.4rem;
+}
+.btn1 {
+    border: 1px solid #3c3c3c;
+    display: inline-block;
+    min-width: 100px;
+    padding: .9em;
+    height: 50px;
+    text-align: center;
+    color: #3c3c3c;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.pink5-btn {
+    background: #cdbbbb;
+    border: none;
+    margin-top: 10%;
+     display: block;
+        margin-left: auto;
+        margin-right: auto;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink5-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+    .pink6-btn {
+    background: #cdbbbb;
+    border: none;
+    margin-top: 10%;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink6-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+    /*====== STOP MOTION =======*/
+    .video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19%;
+    border: 3px solid #cdbbbb;
+        width: 100%;
+        height: 315px;
+}
+.boxkids{
+    border: 2px solid #cdbbbb;
+    width: 100%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    padding:10px;
+}
+    .infoh{
+        font-size: 23px;
+    }
+.infobox{
+    line-height: 3rem;
+}
+.textbox{
+     border: 2px solid #cdbbbb;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding:20px;
+    margin-bottom: 1%;
+}
+.stoph{
+    font-size: 23px;
+}
+.stoptext{
+    line-height: 3rem;
+}
+.pink7-btn {
+    background: #cdbbbb;
+    border: none;
+    position: absolute;
+    width: 100%;
+    margin-top: 1%;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink7-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+.pink8-btn {
+    background: #cdbbbb;
+    position: absolute;
+      width: 100%;
+    margin: 18% 0 7% 0;
+    border: none;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink8-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+/*======= BØRNEHUSET =====*/
+    .slideshow ul {
+    width: 300%;
+    height: 70%;
+}
+.slideshow{
+    margin-top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+    
+.rightbox1 {
+    margin-top: 80%;
+    position: absolute;
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    border: 2px solid #cdbbbb;
+    padding: 10px;
+    
+}
+.boxborn {
+    border: 2px solid #cdbbbb;
+    width: 100%;
+    position: absolute;
+    margin-top: 5%;
+    padding:10px;
+}
+    .infobox1{
+        font-size:12px;
+    }
+    /*======PROJEKTER====*/
+    
+    h2{
+        font-size: 23px;
+        margin-top: 23%;
+    }    
+   
+}

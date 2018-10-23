@@ -1,0 +1,369 @@
+
+.slideshow{
+    margin-top: 5%;
+    margin-left: 8%;
+    position: relative;
+    width: 47%;
+    height: 100vh;
+    overflow: hidden;
+}
+.rightbox {
+     margin-top: -32%;
+    float: right;
+    margin-right: 12%;
+    position: relative;
+    width: 30%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slide input[type='radio'] {
+    animation: slide 12s ease infinite;
+}
+
+.slideshow ul {
+    width: 300%;
+    height: 100%;
+}
+
+.slideshow input {
+    display: none;
+}
+
+.slideshow label {
+    transition: all 200ms;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    height: 15px;
+    width: 15px;
+    z-index: 9999;
+    border-radius: 50%;
+    background-color: rgba(205, 187, 187, 0.7);
+}
+
+.slideshow label:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.slideshow input#first + label {
+    left: 5%;
+}
+
+.slideshow input#first:checked + label,
+.slideshow input#second:checked + label,
+.slideshow input#last:checked + label {
+    background-color: #898987 !important;
+}
+
+.slideshow input#second + label {
+    left: calc(5% + 25px);
+}
+
+.slideshow input#last + label {
+    left: calc(5% + 50px);
+}
+
+.slideshow input#second:checked ~ ul li:nth-child(2),
+.slideshow input#second:checked ~ ul li:first-child,
+.slideshow input#second:checked ~ ul li:nth-child(3) {
+    transform: translateX(-100%);
+}
+
+.slideshow input#last:checked ~ ul li:nth-child(3),
+.slideshow input#last:checked ~ ul li:nth-child(2),
+.slideshow input#last:checked ~ ul li:first-child {
+    transform: translateX(-200%);
+}
+
+.slideshow ul li {
+    transition: all 700ms;
+    position: relative;
+    width: calc(100% / 3);
+    float: left;
+    height: 100%;
+}
+
+.slideshow ul li .text {
+    padding: 10px 0;
+    position: absolute;
+    max-width: 90%;
+    text-align: left;
+    color: #cecece;
+    bottom: 40px;
+    left: 5%;
+}
+
+.slideshow ul li .text h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.slideshow ul li .text p {
+    font-size: 1.1rem;
+}
+
+.slideshow ul li .text p,
+.text h1 {
+    text-shadow: 1.5px 1.5px rgba(22, 22, 22, 0.6);
+}
+
+.slideshow ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.slideshow ul li {
+    animation: slideAnimation 18s infinite 15s;
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    40% {
+        transform: translateX(-100%);
+    }
+
+    60% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: transalateX(-200%);
+    }
+
+    99% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(200%);
+    }
+}
+
+.boxtext{
+    margin-bottom: 5%;
+    color: #898987;
+}
+.aboutlow{
+    font-size: 15px;
+    line-height: 2.4rem;
+}
+.btn1 {
+    border: 1px solid #3c3c3c;
+    display: inline-block;
+    min-width: 100px;
+    padding: .9em;
+    height: 50px;
+    text-align: center;
+    color: #3c3c3c;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.pink5-btn {
+    background: #cdbbbb;
+    border: none;
+    margin-top: 10%;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink5-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+.pink6-btn {
+    background: #cdbbbb;
+    border: none;
+    margin-top: 10%;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink6-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+
+/*====== COOLSHOP=======*/
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 3px solid #cdbbbb;
+    width:1000px;
+    height: 515px;
+}
+.boxkids{
+    border: 2px solid #cdbbbb;
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: 13.9%;
+    margin-top:1%;
+    padding:10px;
+}
+.infoh{
+    font-size: 23px;
+}
+.infobox{
+    line-height: 3rem;
+}
+.textbox{
+     border: 2px solid #cdbbbb;
+    width: 35%;
+    display: block;
+    margin-left: 13.9%;
+    margin-right: auto;
+    margin-top:-16.5%;
+    padding:10px;
+    margin-bottom: 1%;
+}
+.stoph{
+    font-size: 23px;
+}
+.stoptext{
+    line-height: 3rem;
+}
+.pink7-btn {
+    background: #cdbbbb;
+    border: none;
+   float: right;
+     margin-right: 19%;
+    margin-top: -9%;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink7-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+.pink8-btn {
+    background: #cdbbbb;
+    border: none;
+    float: right;
+    margin-right: 31.7%;
+    margin-top: -9%;
+    color: #fff;
+    transition: .6s;
+}
+
+.pink8-btn:hover {
+    background-color: #fff;
+    color: #cdbbbb;
+    text-decoration: none;
+}
+/*=========== BORNEHUSET============*/
+.rightbox1 {
+     margin-top: -25%;
+    float: right;
+    margin-right: 8%;
+    position: relative;
+    width: 30%;
+    height: 80vh;
+    overflow: hidden;
+}
+.bornebox, .infohe {
+    color: #898987;
+    font-size: 1.3em
+}
+.bornabout{
+    font-size: 15px;
+    line-height: 2rem;
+}
+.boxborn{
+    border: 2px solid #cdbbbb;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: 8%;
+    margin-top:-42%;
+    padding:10px;
+}
+.infobox1{
+    line-height: 2.4rem;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color:#898987
+}
+/*====== PROJEKTER====*/
+
+
+.containergallery {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+.textprojekter{
+    margin-bottom: 8%;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
